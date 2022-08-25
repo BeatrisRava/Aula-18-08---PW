@@ -1,13 +1,56 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Página Bibi</title>
+        <title>Pagina Bibi</title>
         <meta name ="description" content="Essa é uma pagina que diz o quanto eu estou linda"/>
         <meta name ="keywords" content="html 5, programação web, bibi"/>
     </head>
     <body>
-        <font color="#FF00FF" size="30px" face="arial" >
-        <center><h2> site da bibi </h2></center>
+        <font color="#FF00FF" size="5px" face="arial" >
+        <h2> Pw - tags de objeto </h2>
     </font>
 
-        <font color="#FF00FF" size="small" face="arial"> 
+            <form>
+            <!--De A a Z no minimo 6 caracteres e maxima de 100 caracteres-->
+                nome: <input type="text" 
+                id="texNome" 
+                placeholder="Digite seu nome" 
+                size="65" required
+                pattern="[A-z\s]{6,100}"/>
+                <br>
+                senha: <input type="password" 
+                id="senha" required 
+                size="65"
+                pattern="[0-9]{6,10}" 
+                title="Senha de 6 a 10 números"/> 
+                <br>
+                email: <input type="email"
+                size="65"
+                id="email" required>
+                <br>
+                altura: <input type="number" 
+                id="altura"
+                min="1.00" max="2.50" 
+                step ="0.01" required/>
+                <br>
+                idade: <input type="number" 
+                id="idade"
+                min="1" max="100" required/>
+                <br>
+                data: <input type="date" id="data" required> 
+                tempo: <input type="time" id="tempo" required>
+                <br>
+                volume: <input type="range" id="volume" required>
+                <br>
+                cor: <input type="color" id="cor"/> 
+                <br>
+            <input type="checkbox" id="aceite">
+            confirmo que quero receber informações </br>
+                periodo: <br/>
+                <input type="radio" id="p1" name="periodo"> Manhã
+                <input type="radio" id="p2" name="periodo"> Tarde
+                <input type="radio" id="p3" name="periodo"> Noite
+            <br>
+            <button> enviar </button>
+
+        </form>
