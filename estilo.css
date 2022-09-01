@@ -1,0 +1,31 @@
+/* classes com seletor por tag */
+
+body{
+    background-color: gray;
+    color: white;
+    font-family: arial;
+}
+
+input, select, textarea{
+    background-color: beige;
+    color:gray;
+    border: solid 1px black;
+    margin:5px;
+}
+
+h1{
+    color: aliceblue;
+    border-bottom: dotted 3px black;
+}
+
+/* seletor por id: se utiliza a # na frente do id desejado
+
+ pega o id do botão */
+#btn{
+    background-color: beige;
+    color: black;
+    width: 70px;
+    height:30px;
+    border: black solid 1px;
+    border-radius: 5px;
+}
