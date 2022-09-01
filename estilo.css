@@ -29,3 +29,16 @@ h1{
     border: black solid 1px;
     border-radius: 5px;
 }
+
+/*seletor por classe*/
+.janela{
+    background-color: rgb(17, 17, 16);
+    width: 50%;
+    margin-left:25%;
+    border: white solid 2px;
+    padding:10px;
+    height: 200px !important;
+
+    /* o important faz o height não ser sobreposto pelos outros atributos */
+}
+
