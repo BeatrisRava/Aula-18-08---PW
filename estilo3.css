@@ -1,0 +1,38 @@
+/* classes em cascata */
+
+#corpo{
+    background-color: rgb(1, 17, 0);
+    width: 80%;
+    height: 90vh;
+    margin-left: 10%;
+    padding: 10px;
+    display:inline-table;
+}
+
+#corpo #topo {
+    background-color: rgb(13, 78, 13);
+    width: 100%;
+    height: 20%;
+    /* para não deixar espaço sobrando, alinhado */
+    display:inline-table;
+}
+
+#corpo #topo h1{
+    color:white;
+    border:dotted whitesmoke 2px;
+    width: 50%;
+}
+
+#corpo #menu {
+    width: 30%;
+    height: 80%;
+    background-color: yellowgreen;
+    display:inline-table;
+}
+
+#corpo #conteudo {
+    width: 70%;
+    height: 80%;
+    background-color: rgb(190, 231, 108);
+    display:inline-table;
+}
