@@ -7,7 +7,7 @@ body{
 }
 
 input, select, textarea{
-    background-color: beige;
+    background-color: white;
     color:gray;
     border: solid 1px black;
     margin:5px;
@@ -22,7 +22,7 @@ h1{
 
  pega o id do botão */
 #btn{
-    background-color: beige;
+    background-color: white;
     color: black;
     width: 70px;
     height:30px;
@@ -32,7 +32,7 @@ h1{
 
 /*seletor por classe*/
 .janela{
-    background-color: rgb(17, 17, 16);
+    background-color:black;
     width: 50%;
     margin-left:25%;
     border: white solid 2px;
@@ -42,3 +42,13 @@ h1{
     /* o important faz o height não ser sobreposto pelos outros atributos */
 }
 
+/* por excessão */
+
+.box{
+    width: 30%;
+    background-color: rgb(80, 76, 76);
+    border: 5px solid black;
+    height: 40vh;
+    padding: 10px;
+
+}
