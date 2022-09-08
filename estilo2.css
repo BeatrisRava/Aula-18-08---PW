@@ -1,0 +1,44 @@
+/* classes com seletor por tag */
+
+body{
+    background-color: gray;
+    color: white;
+    font-family: arial;
+}
+
+input, select, textarea{
+    background-color: beige;
+    color:gray;
+    border: solid 1px black;
+    margin:5px;
+}
+
+h1{
+    color: aliceblue;
+    border-bottom: dotted 3px black;
+}
+
+/* seletor por id: se utiliza a # na frente do id desejado
+
+ pega o id do botão */
+#btn{
+    background-color: rgb(111, 134, 77);
+    color: black;
+    width: 70px;
+    height:30px;
+    border: black solid 1px;
+    border-radius: 5px;
+}
+
+/*seletor por classe*/
+.janela{
+    background-color: rgb(17, 17, 16);
+    width: 50%;
+    margin-left:25%;
+    border: white solid 2px;
+    padding:10px;
+    height: 200px !important;
+
+    /* o important faz o height não ser sobreposto pelos outros atributos */
+}
+
