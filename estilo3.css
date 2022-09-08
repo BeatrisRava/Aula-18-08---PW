@@ -36,3 +36,25 @@
     background-color: rgb(190, 231, 108);
     display:inline-table;
 }
+
+
+
+/* media queries cria versoes das classe css quando determinada condição for aceita para se adaptar a essas condições(ex:formatação de tela.) */
+
+@media screen and (max-width:420px) and (min-width:0px) {
+    body{margin: 0;}
+    #corpo{
+        background-color: rgb(1, 17, 0);
+        width: 100%;
+        height: 100vh;
+        margin-left: 0;
+        padding: 5px 0px 0px 5px;}
+/* esconder essa parte */
+     #corpo #menu {display: none;}
+     #corpo #conteudo {
+        width: 100%;
+        height: 80%;
+        background-color: yellow;}
+        h1 {display: none;}
+    #btnMenu{display:inline-table;}
+}
