@@ -50,5 +50,6 @@ h1{
     border: 5px solid black;
     height: 40vh;
     padding: 10px;
+    overflow-x: scroll;
 
 }
