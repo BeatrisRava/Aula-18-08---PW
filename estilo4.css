@@ -1,0 +1,71 @@
+/* classes em cascata */
+
+#corpo{
+    background-color: red;
+    width: 55%;
+    height: 80vh;
+    margin-left: 20%;
+    padding: 13px;
+    display:inline-table;
+}
+
+
+
+#corpo #topo {
+    background-color: green;
+    width: 100%;
+    height: 20%;
+    /* para não deixar espaço sobrando, alinhado */
+
+}
+
+
+#corpo #menu {
+    width: 50%;
+    height: 80%;
+    background-color: blue;
+    display:inline-table;
+}
+
+
+
+#corpo #conteudo {
+    width: 50%;
+    height: 80%;
+    background-color: yellow;
+    display:inline-table;
+
+}
+
+
+
+/* media queries cria versoes das classe css quando determinada condição for aceita para se adaptar a essas condições(ex:formatação de tela.) */
+
+@media screen and (max-width:420px) and (min-width:0px) {
+
+    #corpo{
+        width: 15%;
+        height: 70vh;
+        padding: 2px;
+}
+
+    #corpo #topo {
+        width: 100%;
+        height: 30%;
+        /* para não deixar espaço sobrando, alinhado */
+}
+
+   #corpo #menu {
+        width: 100%;
+        height: 45%;
+        display: block;
+        }
+
+   #corpo #conteudo {
+        width: 100%;
+        height: 23%;
+        display:block;
+        
+}
+
+}

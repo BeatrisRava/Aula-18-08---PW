@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pagina PW05-4</title>
+        <link rel="stylesheet" href="estilo6.css"/>
+        <meta name ="description" content="Essa é uma pagina que diz o quanto eu estou linda"/>
+        <meta name ="keywords" content="html 5, programação web, bibi"/>
+    </head>
+
+    <div id="corpo">
+    <h1>Contato</h1> 
+
+    <br>
+     <i> Seja bem vindo! Preencha o <b>formulário</b> abaixo para:</i>
+   
+    <ul>
+        <li>Dúvidas</li>
+        <li>Sujestões</li>
+        <li>Criticas</li>
+        <li>Orçamentos</li>
+    </ul>
+
+    Caso queira ver nossos produtos, clique <a href="https://github.com/BeatrisRava/Aulas-PWEB-2022" target="new"> aqui
+    </a>.</br>
+
+    <br>
+
+    <div id="formulario">
+    <form>
+        nome: <input type="text" 
+                id="texNome" 
+                placeholder="Digite seu nome" 
+                size="35" required
+                pattern="[A-z\s]{6,100}"/>
+                <br>
+                <br>
+       email: <input type="email"
+                size="35"
+                placeholder="Digite seu e-mail"
+                id="email" required>
+                <br>
+                <br>
+       telefone: <input type="tel" 
+                id="telefone"
+                pattern="[0-9]{4,5}-[0-9]{4}" 
+                size="32"
+                required>
+                <br>
+                <br>
+       assuntos: 
+                <select id="assuntos">
+                    <option>Dúvidas</option>
+                    <option>Sujestões</option>
+                    <option>Criticas</option>
+                    <option>Orçamentos</option>
+                </select>
+                <br>
+                <br>
+       Deseja receber uma cópia desse email: <input type="radio" id="sim" name="escolha1"> sim <input type="radio" id="não" name="escolha2"> não
+                <br>
+                <br>
+       mensagem:
+                <textarea id="msg" placeholder="digite uma mensagem" required rows="5" cols="40"></textarea> 
+                <br>
+                <br>    
+                <button id="btn"> enviar </button>
+    </form>
+</div>
+</div>

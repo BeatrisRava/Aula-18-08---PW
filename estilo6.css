@@ -1,0 +1,64 @@
+#corpo h1{
+    background-color: rgb(241, 180, 236);
+    color:beige;
+    width: 10%;
+    height: 5vh;
+    margin-left: 41%;
+    padding: 10px;
+    display:inline-table;
+}
+
+#corpo{
+    background-color: rgb(250, 158, 204);
+    font-size: medium;
+    color:beige;
+    width: 50%;
+    height: 50vh;
+    margin-left: 22%;
+    padding: 13px;
+    display:inline-table;
+}
+
+#corpo #formulario{
+    background-color: rgb(241, 161, 235);
+    font-size: medium;
+    color:beige;
+    width: 96%;
+    height: 40vh;
+
+    padding: 13px;
+    display:inline-table;
+}
+
+@media screen and (max-width:420px) and (min-width:0px) {
+    body{margin: 0;}
+    #corpo h1{
+        background-color: rgb(150, 28, 140);
+        color:rgb(226, 169, 203);
+        margin-left: 0;
+        padding: 5px;
+
+    }
+
+    #corpo{
+        background-color: rgb(221, 150, 221);
+        color:black;
+        width: 5%;
+        margin-left: 0;
+        height: 5vh;
+        padding: 5px;
+    }
+
+    #corpo #formulario{
+        background-color: rgb(179, 32, 166);
+        color:beige;
+        width: 5%;
+        height: 10vh;
+        padding: 2px;
+
+    }
+
+    
+
+
+}
