@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <h1> Javascript</h1>
+        <form>
+            n1: <input type="text" id="n1"/> <br/>
+            n2: <input type="text" id="n2"/> <br/>
+            <!-- O ira chamar a função assim que o usuário clicar no botão média -->
+            <button type="button" onclick="media();"> Media</button> <br/>
+        Resultado:
+        <input type="text" id="res" readonly/>
+        </form>
+    </body>
+</html>
+<script lang="javascript">
+
+    function media (){
+//converte para float (parseFloat)
+    var a = parseFloat(n1.value);
+    var b = parseFloat(n2.value);
+    var nome = "Bibi";
+    var c = (a+b)/2;
+//alert("Ola " + nome + " a media = " + c);
+    res.value = c;
+    }
+  
+</script>

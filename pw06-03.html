@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pagina PW06-03</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <meta name ="description" content="Essa é uma pagina que diz o quanto eu estou linda"/>
+        <meta name ="keywords" content="html 5, programação web, bibi"/>
+    </head>
+
+    <body>
+        <div class="container p-5 my-5 bg-dark text-white">
+            <h1>Contato</h1>
+            <p>Seja bem vindo! Preencha o <b>formulário</b> abaixo para:</p>
+          
+        <ul>
+            <li>Dúvidas</li>
+            <li>Sujestões</li>
+            <li>Criticas</li>
+            <li>Orçamentos</li>
+    </ul>
+    Caso queira ver nossos produtos, <a href="https://github.com/BeatrisRava/Aulas-PWEB-2022" target="new">clique aqui
+    </a>.
+    <br>
+
+</div>
+
+<div class="container p-5 my-5 border">
+    <h2>Formulário</h2>
+    <form>
+        <div class="mb-3 mt-3">
+            <label for="name" class="form-label">Nome:</label>
+            <input type="name" class="form-control" id="nome" placeholder="Digite seu nome" name="nome">
+          </div>
+          <div class="mb-3 mt-3">
+            <label for="email" class="form-label">E-mail:</label>
+            <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" name="email">
+        </div>
+        <div class="mb-3 mt-3">
+            <label for="number" class="form-label">Telefone:</label>
+            <input type="fone" class="form-control" id="telefone" placeholder="Digite seu número de telefone" name="telefone">
+            </div>
+             <div class="dropdown">
+                <button type="button" class="btn btn-black dropdown-toggle" data-bs-toggle="dropdown">
+                    Assuntos:
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Dúvidas</a></li>
+                    <li><a class="dropdown-item" href="#">Sujestões</a></li>
+                    <li><a class="dropdown-item" href="#">Criticas</a></li>
+                    <li><a class="dropdown-item" href="#">Orçamentos</a></li>
+                </ul>
+            </div>
+            <br>
+            Deseja receber uma cópia desse email:
+            <br>
+            <br>
+            <div class="form-check mb-3">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="sim"> Sim
+                </label>
+            </div>
+            <div class="form-check mb-3">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="não"> Não
+                </label>
+            </div>
+            <label for="comment">Mensagem:</label>
+            <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+            <br>
+            <button type="button" class="btn btn-dark">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
