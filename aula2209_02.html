@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+        <body> 
+            <h1>Javascript</h1>
+            <form id="frm1">
+                nome: <input type="text" id="nome"/> <br/>
+                e-mail: <input type="text" id="email"/> <br/>
+                senha: <input type="password" id="senha1"/> <br/>
+                confirma: <input type="password" id="senha2"/> <br/>
+            <input type="checkbox" id="confirma"> confirma os dados acima <br/>
+            <button type="button" onclick="validar();"> Enviar</button>
+            </form>
+        </body>
+</html>
+
+<script lang="javascript">
+
+    function validar (){
+  
+        if (nome.value.length<3){
+            alert("Infomer o nome corretamente.");
+        // posiciona o cursor no nome com o problema
+            nome.focus();
+            return false;
+        }
+
+        if(senha1.value.length<6 || !isNaN(senha1.value)){
+            alert("Informe uma senha alfanumerica de ao menos 6 caracteres.")
+            // deixa a senha em branco e posiciona o cursor
+            senha1.value = "";
+            senha1.focus;
+            return false;
+        }
+
+        if(email.value.length<6 || email.value.indexOf("@")<1){
+            alert("Informe um e-mail valido.");
+            email.focus;
+            return false;
+        }
+        
+        if(senha1.value != senha2.value){
+            alert("As senhas não são iguais");
+            senha2.value = "";
+            senha2.focus;
+            return false;
+        }
+
+        if(confirma.checked==false){
+            alert("Você precisa confirmar os dados.");
+            return false;
+        }
+            
+
+        alert("Cadastro realizado com sucesso.")
+        frm1.submit();
+    }
+  
+</script>
